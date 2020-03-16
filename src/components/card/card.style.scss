@@ -1,0 +1,16 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  img {
+    width: 150px;
+  }
+  align-items: center;
+  background-color: rgba(132, 176, 194, 0.719);
+  border: 1px solid rgb(44, 42, 42);
+  border-radius: 12px;
+  transition: ease-in-out 0.3s;
+
+  &:hover {
+    transform: scale(1.04);
+  }
+}
